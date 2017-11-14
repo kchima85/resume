@@ -1,0 +1,18 @@
+.awesome-picture {
+    background-image: url('./images/intro-hero.jpg');
+    background-size: cover;
+    background-color: yellow;
+}
+
+.container {
+    width: 1140px;
+    max-width: 100%;
+}
+
+.my-pic {
+    border-radius: 50%;
+}
+
+h1 {
+    color: white;
+}
