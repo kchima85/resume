@@ -1,7 +1,19 @@
+section {
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+h1 {
+    color: white;
+}
+
+img {
+    max-width: 100%;
+}
 .awesome-picture {
     background-image: url('./images/intro-hero.jpg');
     background-size: cover;
-    background-color: yellow;
+    padding: 90px 0px 120px 0px;
 }
 
 .container {
@@ -13,6 +25,19 @@
     border-radius: 50%;
 }
 
-h1 {
-    color: white;
+.typist-skill {
+    color: #ff9801;
+    font-weight: bold;
+}
+
+.hero-tagline {
+    font-size: 30px;
+}
+
+
+
+.section-title {
+    text-align: center;
+    /* visibility: visible;
+    animation-name: zoomIn; */
 }
