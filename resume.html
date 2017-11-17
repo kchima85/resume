@@ -8,8 +8,8 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
-    <link rel="stylesheet" href="animate.css">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./lib/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="https://cdn.rawgit.com/konpa/devicon/df6431e323547add1b4cf45992913f15286456d3/devicon.min.css">
   </head>
   <body>
@@ -26,34 +26,39 @@
     <div class="content-wrap">
       <section class="about-me">
         <div class="container">
-          <h2 class="animated zoomIn section-title" >About Me</h2>
+          <h3 class="animated zoomIn section-title">About Me</h3>
           <div class="row">
             <div class="col-lg-4 animated fadeInLeft">
-                <img src="./images/me.jpg">
+              <img src="./images/me.jpg">
             </div>
             <div class="col-lg-8">
-              <p>Hello, my name is <strong>Karmbir Chima</strong>, your friendly neighborhood software engineer based in San Francisco.
-                I code and know things!
-              </p>
-              <p>
-                Through my personal projects and work experiences I have a gained a Full Stack skill set in various database languages, back end languages/frameworks, and front end frameworks.
-                The particular skills can be found below. Essentially, I learned the right tools to be able to solve the problem in front of me.
-                If you have any questions or just want to chat about coding, gaming, or Brazilian Jiu Jitsu reach out!
-              </p>
-              <h4>Contact Information</h4>
-              <ul>
-                <li>Email:    Kambirchima@gmail.com</li>
-                <li>Github:   www.github.com/kchima85</li>
-                <li>LinkedIn: www.linkedin.com/</li>
-              </ul>
-              <button>Download Resume</button>
-              <button>Email me</button>
+              <div class="animated fadeInRight">
+                <p>Hello, my name is <strong>Karmbir Chima</strong>, your friendly neighborhood software engineer based in San Francisco.
+                  I code and know things!
+                </p>
+                <p>
+                  Through my personal projects and work experiences I have a gained a Full Stack skill set in various database languages, back end languages/frameworks, and front end frameworks.
+                  The particular skills can be found below. Essentially, I learned the right tools to be able to solve the problem in front of me.
+                  If you have any questions or just want to chat about coding, gaming, or Brazilian Jiu Jitsu reach out!
+                </p>
+                <h4>Contact Information</h4>
+                <ul>
+                  <li>Email:    Kambirchima@gmail.com</li>
+                  <li>Github:   www.github.com/kchima85</li>
+                  <li>LinkedIn: www.linkedin.com/</li>
+                </ul>
+              </div>
+              <div class="animated fadeInUp">
+                <button>Download Resume</button>
+                <button>Email me</button>
+              </div>
             </div>
           </div>
         </div>
       </section>
       <section class="skill-set">
         <div class="container">
+          <h2 class="animated zoomIn section-title">Technical Skills</h2>
           <div class="row">
             <div class="col-lg-2 col-md-4">
               <h4>
@@ -90,14 +95,67 @@
           </div>
         </div>
       </section>
-      <section>
+      <section class="relevant-experience">
+        <div class="container">
+          <h2 class="animated zoomIn section-title">Relevant Experience</h2>
+          <div class="row">
+            <div class="col-md-6 animated fadeInLeft">
+              <h3>Associate Engineer</h3>
+              <h4>Conversant LLC</h4>
+              <p>Jan 2017 - present</p>
+            </div>
+            <div class="col-md-6 animated fadeInRight">
+              <h3>Associate Software Engineer</h3>
+              <h4>Agent IQ</h4>
+              <p>June 2016 - Jan 2017</p>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-md-6 animated fadeInLeft">
+              <p>
+                • Developed Fullstack internal applications that automated 2 hours of repetitive steps in our troubleshooting process down to the push of a button. 
+              </p>
+              <p>
+                • Engineered succinct queries to collect data from our Postgres servers to resolve client issues.
+              </p>
+              <p>
+                • Created more accurate documentation of existing data which helped onboarding of new engineers to the team. 
+              </p>
+              <p>
+                • Assisted in implementation of Javascript pixels on client’s pages to collect user data.
+              </p>
+            </div>
+            <div class="col-md-6 animated fadeInRight">
+              <p>
+                • Developed a Postgres build system which automated table creation, schema updates, and seed data insertion ultimately streamlining the build process by 97%. 
+              </p>
+              <p>
+                • Pioneered development of ETL scripts to process and load past chat records into Agent IQ’s data warehouse.
+              </p>
+              <p>
+                • Developed and designed scalable CRUD API which tracked multiple performance metrics of users.
+              </p>
+              <p>
+                • Created test suite for Node.js server application using Mochajs.  
+              </p>
+              <p>
+                • Lead effort to optimize queries and schemas to significantly increase throughput of data. 
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="education">
         <div class="container">
           <div class="row">
-            <div class="col-md-6">
-              Job experience 1
+            <div class="col-md-6 animated fadeInLeft">
+              <h2>Education</h2>
+              <h4>Bachelors of Science Biochemistry</h4>
+              <p>2007 - 2012</p>
             </div>
-            <div class="col-md-6">
-              Job experience 2
+            <div class="col-md-6 animated fadeInRight">
+              <h2>General Assembly</h2>
+              <h4>Data Analytics</h4>
             </div>
           </div>
         </div>
@@ -106,5 +164,6 @@
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+    <script src="./js/js.js"></script>
   </body>
 </html>
