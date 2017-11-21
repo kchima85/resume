@@ -35,24 +35,24 @@
             </div>
             <div class="col-lg-8">
               <div class="animated fadeInRight">
-                <p>Hello, my name is <strong>Karmbir Chima</strong>, your friendly neighborhood software engineer based in San Francisco.
+                <p class="first-paragraph">Hello, my name is <strong>Karmbir Chima</strong>, your friendly neighborhood software engineer based in San Francisco.
                   I code and know things!
                 </p>
-                <p>
+                <p class="second-paragraph">
                   Through my personal projects and work experiences I have a gained a Full Stack skill set in various database languages, back end languages/frameworks, and front end frameworks.
                   The particular skills can be found below. Essentially, I learned the right tools to be able to solve the problem in front of me.
                   If you have any questions or just want to chat about coding, gaming, or Brazilian Jiu Jitsu reach out!
                 </p>
-                <h4>Contact Information</h4>
-                <ul>
+                <!-- <h4 id='contact-info'>Contact Information</h4>
+                <ul class="class-information">
                   <li>Email:    Kambirchima@gmail.com</li>
                   <li>Github:   www.github.com/kchima85</li>
-                  <li>LinkedIn: www.linkedin.com/</li>
-                </ul>
+                  <li>LinkedIn: www.linkedin.com/in/karmbirchima</li>
+                </ul> -->
               </div>
-              <div class="animated fadeInUp">
-                <button>Download Resume</button>
-                <button>Email me</button>
+              <div class="buttons">
+                <a href="www.linkedin.com/in/karmbirchima" class="btn btn-theme btn-active animated fadeInUp">LinkedIn Resume</a>
+                <a href="www.github.com/kchima85" class="btn btn-theme btn-active animated fadeInUp">Github Profile</a>
               </div>
             </div>
           </div>
@@ -61,38 +61,39 @@
       <section class="skill-set">
         <div class="container">
           <h2 class="animated zoomIn section-title">Technical Skills</h2>
-          <div class="row">
-            <div class="col-lg-2 col-md-4">
-              <h4>
+          <div class="row" id="skills">
+            <div class="col-lg-4 col-md-4">
+              <h3>
                 Front end
-              </h4>
-              <ul>
-                <li><i class="devicon-angularjs-plain colored"></i></li>
-                <li><i class="devicon-bootstrap-plain-wordmark colored"></i></li>
-                <li><i class="devicon-css3-plain colored"></i></li>
-              </ul>
+              </h3>
+              <div class="skill-items">
+                <img src="./images/angularjs.svg" alt="">
+                <img src="./images/bootstrap.png" alt="">
+                <img src="./images/css.png" alt="">
+              </div>
+              
             </div>
-            <div class="col-lg-2 col-md-4">
-              <h4>
+            <div class="col-lg-4 col-md-4">
+              <h3>
                 Back end
-              </h4>
-              <ul>
-                <li><i class="devicon-nodejs-plain colored"></i></li>
-                <li><i class="devicon-express-original colored"></i></li>
-                <li><i class="devicon-mocha-plain colored"></i></li>
-                <li><i class="devicon-laravel-plain-wordmark colored"></i></li>
-                <li><i class="devicon-postgresql-plain-wordmark colored"></i></li>
-              </ul>
+              </h3>
+              <div class="skill-items">
+                <img src="./images/nodejs.svg" alt="">
+                <img src="./images/express.png" alt="">
+                <img src="./images/mocha.svg" alt="">
+                <img src="./images/laravel-icon.png" alt="">
+                <img src="./images/postgres.png" alt="">
+              </div>
             </div>
-            <div class="col-lg-2 col-md-4">
-              <h4>
+            <div class="col-lg-4 col-md-4">
+              <h3>
                 Exploring
-              </h4>
-              <ul>
-                <li><i class="devicon-csharp-plain colored"></i></li>
-                <li><i class="devicon-react-original colored"></i></li>
-                <li><i class="devicon-python-plain colored"></i></li>
-              </ul>
+              </h3>
+              <div class="skill-items">
+                <img src="./images/Csharp.png" alt="">
+                <img src="./images/react.svg" alt="">
+                <img src="./images/python.png" alt="">
+              </div>
             </div>
           </div>
         </div>
@@ -115,33 +116,33 @@
           <div class="row">
             <div class="col-md-6 animated fadeInLeft">
               <p>
-                • Developed Fullstack internal applications that automated 2 hours of repetitive steps in our troubleshooting process down to the push of a button. 
+                Developed Fullstack internal applications that automated 2 hours of repetitive steps in our troubleshooting process down to the push of a button.
               </p>
               <p>
-                • Engineered succinct queries to collect data from our Postgres servers to resolve client issues.
+                Engineered succinct queries to collect data from our Postgres servers to resolve client issues.
               </p>
               <p>
-                • Created more accurate documentation of existing data which helped onboarding of new engineers to the team. 
+                Created more accurate documentation of existing data which helped onboarding of new engineers to the team.
               </p>
               <p>
-                • Assisted in implementation of Javascript pixels on client’s pages to collect user data.
+                Assisted in implementation of Javascript pixels on client’s pages to collect user data.
               </p>
             </div>
             <div class="col-md-6 animated fadeInRight">
               <p>
-                • Developed a Postgres build system which automated table creation, schema updates, and seed data insertion ultimately streamlining the build process by 97%. 
+                Developed a Postgres build system which automated table creation, schema updates, and seed data insertion ultimately streamlining the build process by 97%.
               </p>
               <p>
-                • Pioneered development of ETL scripts to process and load past chat records into Agent IQ’s data warehouse.
+                Pioneered development of ETL scripts to process and load past chat records into Agent IQ’s data warehouse.
               </p>
               <p>
-                • Developed and designed scalable CRUD API which tracked multiple performance metrics of users.
+                Developed and designed scalable CRUD API which tracked multiple performance metrics of users.
               </p>
               <p>
-                • Created test suite for Node.js server application using Mochajs.  
+                Created test suite for Node.js server application using Mochajs.
               </p>
               <p>
-                • Lead effort to optimize queries and schemas to significantly increase throughput of data. 
+                Lead effort to optimize queries and schemas to significantly increase throughput of data.
               </p>
             </div>
           </div>
@@ -160,6 +161,23 @@
               <h2>General Assembly</h2>
               <h4>Data Analytics</h4>
               <p>Jan 2016</p>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="personal-projects">
+        <div class="container">
+          <h2 class="animated zoomIn section-title">Personal Projects</h2>
+          <div class="row">
+            <div class="col-md-6 animated fadeInLeft">
+              <h2>Project Shaagan</h2>
+              <h4>Postgres/NodeJs/React</h4>
+              <p>A tool that will help organize event invites and giving money as a gift.</p>
+            </div>
+            <div class="col-md-6 animated fadeInRight">
+              <h2>Twitter Game</h2>
+              <h4>Postgres/NodeJs</h4>
+              <p>A bot that will interact with users on twitter.</p>
             </div>
           </div>
         </div>
@@ -229,7 +247,8 @@
             <div class="owl-carousel owl-theme owl-loaded">
               <div>Brazilian Jiu Jitsu</div>
               <div>Gaming</div>
-              <div>Brazilian Jiu Jitsu</div>
+              <div>Building Computers</div>
+              <div>Cars</div>
             </div>
           </div>
         </div>
