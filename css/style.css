@@ -55,8 +55,9 @@ img {
 
 .buttons a {
     background-color: orange;
-    border-radius: 50px;
     color: white;
+    border-radius: 50px;
+    padding: 6px 24px 6px 24px;    
 }
 
 .skill-items {
@@ -82,7 +83,11 @@ img {
 }
 
 .review-pics img {
-    border-radius: 50px;
+    width: 50%;
+    height: auto;
+    border-radius: 25px;
+    display: block;
+    margin: 0 auto;
 }
 
 .project p {
