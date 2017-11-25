@@ -4,15 +4,14 @@
     <title>Karmbir's</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="./lib/bootstrapCss.css">
     <link rel="stylesheet" href="./lib/animate.css">
     <link rel="stylesheet" href="./css/style.css">
     <link rel="stylesheet" href="./lib/devicon.css">
-    <link rel="stylesheet" href="lib/owl.carousel.min.css">
-    <link rel="stylesheet" href="lib/owl.theme.default.min.css">
+    <link rel="stylesheet" href="./lib/flickity.css">
   </head>
   <body>
     <section class="awesome-picture">
@@ -28,14 +27,14 @@
     <div class="content-wrap">
       <section class="about-me">
         <div class="container">
-          <h3 class="animated zoomIn section-title">About Me</h3>
+          <h2 class="animated zoomIn section-title">About Me</h2>
           <div class="row">
-            <div class="col-lg-4 animated fadeInLeft">
-              <img src="./images/me.jpg">
+            <div class="col-xs-12 animated fadeInLeft">
+              <img id="second-pic" src="./images/me.jpg">
             </div>
-            <div class="col-lg-8">
+            <div class="col-xs-12">
               <div class="animated fadeInRight">
-                <p class="first-paragraph">Hello, my name is <strong>Karmbir Chima</strong>, your friendly neighborhood software engineer based in San Francisco.
+                <p class="first-paragraph">Hello, my name is <span>Karmbir Chima</span>, your friendly neighborhood software engineer based in San Francisco.
                   I code and know things!
                 </p>
                 <p class="second-paragraph">
@@ -45,8 +44,8 @@
                 </p>
               </div>
               <div class="buttons">
-                <a href="www.linkedin.com/in/karmbirchima" class="btn btn-theme btn-active animated fadeInUp">LinkedIn Resume</a>
-                <a href="www.github.com/kchima85" class="btn btn-theme btn-active animated fadeInUp">Github Profile</a>
+                <a href="www.linkedin.com/in/karmbirchima" class="btn btn-theme btn-active animated fadeInUp">LinkedIn</a>
+                <a href="www.github.com/kchima85" class="btn btn-theme btn-active animated fadeInUp">Github</a>
               </div>
             </div>
           </div>
@@ -56,7 +55,7 @@
         <div class="container">
           <h2 class="animated zoomIn section-title">Technical Skills</h2>
           <div class="row" id="skills">
-            <div class="col-lg-4 col-md-4 tech-skills">
+            <div class="tech-skills">
               <h3>
                 Front end
               </h3>
@@ -67,7 +66,7 @@
               </div>
               
             </div>
-            <div class="col-lg-4 col-md-4 tech-skills">
+            <div class="tech-skills">
               <h3>
                 Back end
               </h3>
@@ -79,7 +78,7 @@
                 <img src="./images/postgres.png" alt="">
               </div>
             </div>
-            <div class="col-lg-4 col-md-4 tech-skills">
+            <div class="tech-skills">
               <h3>
                 Exploring
               </h3>
@@ -95,41 +94,53 @@
       <section class="relevant-experience">
         <div class="container">
           <h2 class="animated zoomIn section-title">Work Experience</h2>
-          <div class="owl-carousel owl-theme owl-loaded">
-            <div class="jobs">
-              <h3>Associate Engineer</h3>
-              <h4>Conversant LLC</h4>
-              <p class="work-time">Jan 2017 - Present</p>
-              <p>Develop internal applications using Postgres/PHP/AngularJS that automated 2 hours of repetitive steps in our troubleshooting process down to the push of a button</p>
-              <p>Employed business logic to create efficent queries to resolve client issues and solve discrepancies</p>
-              <p>Created more accurate documentation of existing tables and columns which helped onboarding of new engineers to the team</p>
-              <p>Implmented javascript pixels on client’s pages to collect user data</p>
-            </div>
-            <div class="jobs">
-              <h3>Associate Data Engineer</h3>
-              <h4>Agent IQ</h4>
-              <p class="work-time">June 2016 - Jan 2017</p>
-              <p>Developed a Postgres build system with automatic table creation, schema updates, and seed data insertion which streamlined the build process by 97%</p>
-              <p>Designed and developed ETL scripts to process and load past chat records into Agent IQ’s data warehouse</p>
-              <p>Developed and designed scalable CRUD API which tracked multiple performance metrics of users</p>
-              <p>Created test suite for Node.js server application using Mochajs</p>
-              <p>Lead effort to optimize queries and schemas to significantly increase throughput of data</p>
-            </div>
-            <div class="jobs">
-              <h3>Analyst</h3>
-              <h4>Veolia</h4>
-              <p class="work-time">Jan 2017 - Present</p>
-              <p>Designed and developed tables to migrate laboratory results for ease of reporting and analytics execution</p>
-              <p>
-                Created a more efficient, visually appealing, and easier to understand reporting system to the team utilizing
-                KPIs ultimately leading to better material and financial resources at the plant
-              </p>
-            </div>
-            <div class="jobs">
-              <h3>Chemist</h3>
-              <h4>Inspectorate</h4>
-              <p class="work-time">March 2013 - Jan 2014</p>
-              <p>Utilize ASTM methods to evaluate oil and petroleum products</p>
+          <div class="row">
+            <div class="main-carousel">
+              <div class="carousel-cells col-xs-12">
+                <h3>Associate Engineer</h3>
+                <h4>Conversant LLC</h4>
+                <p class="work-time">Jan 2017 - Present</p>
+                <div class="work-description">
+                  <p>Develop internal applications using Postgres/PHP/AngularJS that automated 2 hours of repetitive steps in our troubleshooting process down to the push of a button</p>
+                  <p>Employed business logic to create efficent queries to resolve client issues and solve discrepancies</p>
+                  <p>Created more accurate documentation of existing tables and columns which helped onboarding of new engineers to the team</p>
+                  <p>Implmented javascript pixels on client’s pages to collect user data</p>
+                </div>
+              </div>
+              <div class="carousel-cells col-xs-12">
+                <h3>Associate Data Engineer</h3>
+                <h4>Agent IQ</h4>
+                <p class="work-time">June 2016 - Jan 2017</p>
+                <div class="work-description">
+                  <p>Developed a Postgres build system with automatic table creation, schema updates, and seed data insertion which streamlined the build process by 97%</p>
+                  <p>Designed and developed ETL scripts to process and load past chat records into Agent IQ’s data warehouse</p>
+                  <p>Developed and designed scalable CRUD API which tracked multiple performance metrics of users</p>
+                  <p>Created test suite for Node.js server application using Mochajs</p>
+                  <p>Lead effort to optimize queries and schemas to significantly increase throughput of data</p>
+                </div>
+              </div>
+              <div class="carousel-cells col-xs-12">
+                <h3>Analyst</h3>
+                <h4>Veolia</h4>
+                <p class="work-time">April 2014 - Jun 2016</p>
+                <div class="work-description">
+                  <p>Designed and developed tables to migrate laboratory results for ease of reporting and analytics execution</p>
+                  <p>
+                    Created a more efficient, visually appealing, and easier to understand reporting system to the team utilizing
+                    KPIs ultimately leading to better material and financial resources at the plant
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-cells col-xs-12">
+                <h3>Chemist</h3>
+                <h4>Inspectorate</h4>
+                <p class="work-time">March 2013 - Jan 2014</p>
+                <div class="work-description">
+                  <p>Utilize ASTM methods to evaluate oil and petroleum products</p>
+                  <p>Conducted daily calibrations and logging of instruments</p>
+                  <p>Maintained upkeep of laboratory reagents and supplies</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -138,13 +149,13 @@
         <div class="container">
           <h2 class="animated zoomIn section-title">Education</h2>
           <div class="row">
-            <div class="col-md-6 animated fadeInLeft colleges">
-              <h2>San Francisco State</h2>
+            <div class="animated fadeInLeft colleges">
+              <h3>San Francisco State</h3>
               <h4>Bachelors of Science Biochemistry</h4>
               <p class="work-time">2007 - 2012</p>
             </div>
-            <div class="col-md-6 animated fadeInRight colleges">
-              <h2>General Assembly</h2>
+            <div class="animated fadeInRight colleges">
+              <h3>General Assembly</h3>
               <h4>Data Analytics</h4>
               <p class="work-time">Jan 2016</p>
             </div>
@@ -155,33 +166,15 @@
         <div class="container">
           <h2 class="animated zoomIn section-title">What people say</h2>
           <div class="row">
-            <div class="owl-carousel owl-theme owl-loaded">
-              <div class="review">
-                <div class="review-pics">
-                  <img src="./images/katie.jpg" alt="">
-                </div>
-                <div>
-                  <h4>Katie Low</h4>
-                  <p>Front End Engineer</p>
-                  <p>
-                    During my time with Agent IQ, I've grown to truly respect KC.
-                    He has the grit and fortitude to plow through challenging projects.
-                    He always keeps scalability and efficiency in check, as he designs and implements new features.
-                    In meetings, he is not afraid to raise thoughtful points with the company's best interests in mind.
-                    At the same time, he is wonderful to work with, easy to pair program with and is able to clearly communicate
-                    to bridge gaps in knowledge between front-end and back-end processes.
-                    When not at work, he is always trying to improve himself as a programmer and grow as a person.
-                  </p>
-                </div>
-              </div>
-              <div class="review">
+            <div class="main-carousel">
+              <div class="carousel-cells col-xs-12">
                 <div class="review-pics">
                   <img src="./images/alex.jpg" alt="">
                 </div>
                 <div>
                   <h4>Alex Strachan</h4>
-                  <p>Staff Engineer</p>
-                  <p>
+                  <p class="job-description">Staff Engineer</p>
+                  <p class="review">
                     KC is a goal-oriented self-starter and is a pleasure to work with.
                     At Agent IQ, his work on schema optimization, query design and planning
                     brought a significant benefit to data velocity and integrity and was a key
@@ -189,19 +182,37 @@
                   </p>
                 </div>
               </div>
-              <div class="review">
+              <div class="carousel-cells col-xs-12">
                 <div class="review-pics">
                   <img src="./images/david.jpg" alt="">
                 </div>
                 <div>
                   <h4>David Helgeson</h4>
-                  <p>Senior Software Engineer</p>
-                  <p>
+                  <p class="job-description">Senior Software Engineer</p>
+                  <p class="review">
                     Karmbir is an engineer with a talent for Postgres, SQL, and ES6 javascript.
                     I've personally worked with him in creating tests, developing APIs, data transformation
                     and can attest to his abilities. He is thoughtful and has stood up to the test of many challenging
                     projects. Most importantly he's a pleasure to work with, who is receptive to feedback and always
                     pursuing professional growth.
+                  </p>
+                </div>
+              </div>
+              <div class="carousel-cells col-xs-12">
+                <div class="review-pics">
+                  <img src="./images/katie.jpg" alt="">
+                </div>
+                <div>
+                  <h4>Katie Low</h4>
+                  <p class="job-description">Front End Engineer</p>
+                  <p class="review">
+                    During my time with Agent IQ, I've grown to truly respect KC.
+                    He has the grit and fortitude to plow through challenging projects.
+                    He always keeps scalability and efficiency in check, as he designs and implements new features.
+                    In meetings, he is not afraid to raise thoughtful points with the company's best interests in mind.
+                    At the same time, he is wonderful to work with, easy to pair program with and is able to clearly communicate
+                    to bridge gaps in knowledge between front-end and back-end processes.
+                    When not at work, he is always trying to improve himself as a programmer and grow as a person.
                   </p>
                 </div>
               </div>
@@ -214,12 +225,12 @@
           <h2 class="animated zoomIn section-title">Personal Projects</h2>
           <div class="row">
             <div class="col-md-6 animated fadeInLeft project">
-              <h2>Project Shaagan</h2>
+              <h3>Project Shaagan</h3>
               <h4>Postgres/NodeJs/React</h4>
               <p>A tool that will help organize event invites and giving money as a gift.</p>
             </div>
             <div class="col-md-6 animated fadeInRight project">
-              <h2>Twitter Game</h2>
+              <h3>Twitter Game</h3>
               <h4>Postgres/NodeJs</h4>
               <p>A bot that will interact with users on twitter.</p>
             </div>
@@ -230,22 +241,38 @@
         <div class="container">
           <h2 class="animated zoomIn section-title">Interests/Hobbies</h2>
           <div class="row">
-            <div class="owl-carousel owl-theme owl-loaded">
-              <div class="hobbies">
-                <p>Brazilian Jiu Jitsu</p>
-                <img src="./images/CGBJJ.jpg" alt="">
+            <div class="main-carousel">
+              <div class="carousel-cells col-xs-12 hobbies">
+                <div>
+                  <p class="hobby-names">Brazilian Jiu Jitsu</p>  
+                </div>
+                <div>
+                  <img class="hobby-pics" src="./images/CGBJJ.jpg">
+                </div>
               </div>
-              <div class="hobbies">
-                <p>Gaming</p>
-                <img src="./images/laptop.svg" alt="">
+              <div class="carousel-cells col-xs-12 hobbies">
+                <div>
+                  <p class="hobby-names">Gaming</p>  
+                </div>
+                <div>
+                  <img class="hobby-pics" src="./images/laptop.svg">
+                </div>
               </div>
-              <div class="hobbies">
-                <p>Building Computers</p>
-                <img src="./images/cpugaming.png" alt="">
+              <div class="carousel-cells col-xs-12 hobbies">
+                <div>
+                  <p class="hobby-names">Building Computers</p>
+                </div>
+                <div>
+                  <img class="hobby-pics" src="./images/cpugaming.png">
+                </div>
               </div>
-              <div class="hobbies">
-                <p>Cars</p>
-                <img src="./images/car.png" alt="">
+              <div class="carousel-cells col-xs-12 hobbies">
+                <div>
+                  <p class="hobby-names">Tuning Cars</p>
+                </div>
+                <div>
+                  <img class="hobby-pics" src="./images/car.png">
+                </div>
               </div>
             </div>
           </div>
@@ -255,7 +282,7 @@
     <script src="./lib/jquery-3.2.1.min.js"></script>
     <script src="./lib/popper.min.js"></script>
     <script src="./lib/bootstrap.min.js"></script>
-    <script src="lib/owl.carousel.min.js"></script>
+    <script src="./lib/flickity.pkgd.min.js"></script>
     <script src="./js/js.js"></script>
   </body>
 </html>

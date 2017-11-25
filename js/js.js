@@ -1,4 +1,8 @@
 $(document).ready(function() {
-    $(".owl-carousel").owlCarousel({
-      });
+  $('.main-carousel').flickity({
+    // options
+    cellAlign: 'center',
+    contain: true,
+    pageDots: false
+  });
 });
