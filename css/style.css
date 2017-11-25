@@ -85,6 +85,10 @@ img {
     border-radius: 50px;
 }
 
+.project p {
+    text-align: center;
+}
+
 .hobby-names {
     text-align: center;
     font-weight: bold;
