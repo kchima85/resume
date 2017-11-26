@@ -2,12 +2,16 @@
     box-sizing: border-box;
 }
 
-h4, h3, h2, .work-time {
+h4, h3, h2, .work-time, .work-description, .job-description {
     text-align: center;
 }
 
-h2 {
+.even, .odd {
     margin-top: 40px;
+}
+
+.odd {
+    background-color: #F8F8F8;
 }
 
 .awesome-picture {
@@ -37,11 +41,12 @@ h2 {
     font-size: 20px;
 }
 
-.first-paragraph span, h1 span {
+.first-paragraph span, span {
     color: orange;
 }
 
 .second-paragraph, .work-description, .review {
+    margin: 0 40px 20px 40px;
     font-weight: 100px;
     font-size: 15px;
 }
@@ -75,9 +80,8 @@ h2 {
     font-weight: 600;
 }
 
-.job-description {
-    text-align: center;
-    font-weight: bold;
+.job-description span {
+    font-size: 16px;
 }
 
 .review-pics img {
@@ -110,9 +114,8 @@ h2 {
     }
 
     #second-pic {
-        margin: 0px auto;
-        display: block;
-        max-width: 50%;
+        max-width: 125%;
+        margin-top: 75px;
     }
 
     .first-paragraph {
@@ -120,7 +123,7 @@ h2 {
     }
 
     .second-paragraph {
-        margin: 0px 40px 20px 40px;
+        margin: 0px 40px 20px 55px;
     }
 
     .buttons a {
@@ -135,11 +138,40 @@ h2 {
         margin: 0px 40px 0px 40px;
     }
 
-    .work-description, .colleges {
-        text-align: center;
+    .review-pics img, .hobby-pics {
+        width: 25%;
+    }
+}
+
+@media screen and (min-width: 1024px){
+    .my-pic {
+        max-width: 50%;
+    }
+
+    .first-paragraph {
+        font-size: 35px;
+    }
+
+    .second-paragraph {
+        font-size: 20px;
+        margin: 0px 40px 20px 55px;
+    }
+
+    .buttons a {
+        padding: 12px 50px 12px 50px;
+    }
+
+    .skill-items img {
+        width: 15%;
+    }
+
+    .work-description, .review {
+        font-size: 20px;
+        margin: 0px 40px 0px 40px;
     }
 
     .review-pics img, .hobby-pics {
-        width: 30%;
+        width: 25%;
     }
 }
+
