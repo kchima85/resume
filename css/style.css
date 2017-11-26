@@ -23,6 +23,7 @@ img {
 
 .my-pic {
     border-radius: 50%;
+    width: 75%;
 }
 
 .text-center h1 {
@@ -30,7 +31,9 @@ img {
 }
 
 #second-pic {
-    margin-bottom: 40px;
+    margin: 0px auto;
+    display: block;
+    width: 75%;
 }
 
 .first-paragraph {
@@ -105,3 +108,4 @@ img {
     display: block;
     margin: 0 auto;
 }
+
