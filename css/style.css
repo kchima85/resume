@@ -16,14 +16,9 @@ h2 {
     padding: 90px 0px 120px 0px;
 }
 
-img {
-    width: 100%;
-    height: auto;
-}
-
 .my-pic {
     border-radius: 50%;
-    width: 75%;
+    max-width: 75%;
 }
 
 .text-center h1 {
@@ -33,7 +28,7 @@ img {
 #second-pic {
     margin: 0px auto;
     display: block;
-    width: 75%;
+    max-width: 75%;
 }
 
 .first-paragraph {
@@ -42,7 +37,7 @@ img {
     font-size: 20px;
 }
 
-.first-paragraph span {
+.first-paragraph span, h1 span {
     color: orange;
 }
 
@@ -72,7 +67,7 @@ img {
 
 .skill-items img {
     width: 30%;
-    height: 25%;
+    height: auto;
     margin-bottom: 20px;
 }
 
@@ -109,3 +104,42 @@ img {
     margin: 0 auto;
 }
 
+@media screen and (min-width: 768px){
+    .my-pic {
+        max-width: 50%;
+    }
+
+    #second-pic {
+        margin: 0px auto;
+        display: block;
+        max-width: 50%;
+    }
+
+    .first-paragraph {
+        font-size: 35px;
+    }
+
+    .second-paragraph {
+        margin: 0px 40px 20px 40px;
+    }
+
+    .buttons a {
+        padding: 12px 50px 12px 50px;
+    }
+
+    .skill-items img {
+        width: 15%;
+    }
+
+    .work-description, .review {
+        margin: 0px 40px 0px 40px;
+    }
+
+    .work-description, .colleges {
+        text-align: center;
+    }
+
+    .review-pics img, .hobby-pics {
+        width: 30%;
+    }
+}
