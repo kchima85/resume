@@ -6,10 +6,17 @@ $(document).ready(function() {
     pageDots: false
   });
 
-  $('.second-pic-wp').waypoint(function(direction) {
+  $('.about-me').waypoint(function(direction) {
     $('.second-pic-wp').addClass('animated fadeInLeft')
+    $('.about-me-text').addClass('animated fadeInRight')
+    $('.buttons').addClass('animated fadeInUp')
   }, {
-    offset: '596px'
+    offset: '557px'
   })
 
+  // $('.buttons').waypoint(function(direction) {
+    
+  // }, {
+  //   offset: '950px'
+  // })
 });
