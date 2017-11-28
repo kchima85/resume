@@ -9,14 +9,13 @@ $(document).ready(function() {
   $('.about-me').waypoint(function(direction) {
     $('.second-pic-wp').addClass('animated fadeInLeft')
     $('.about-me-text').addClass('animated fadeInRight')
-    $('.buttons').addClass('animated fadeInUp')
   }, {
     offset: '557px'
   })
 
-  // $('.buttons').waypoint(function(direction) {
-    
-  // }, {
-  //   offset: '950px'
-  // })
+  $('.second-paragraph').waypoint(function(direction) {
+    $('.buttons').addClass('animated fadeInUp')
+  }, {
+    offset: '550px'
+  })
 });
