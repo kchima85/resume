@@ -16,6 +16,6 @@ $(document).ready(function() {
   $('.second-paragraph').waypoint(function(direction) {
     $('.buttons').addClass('animated fadeInUp')
   }, {
-    offset: '550px'
+    offset: '560px'
   })
 });

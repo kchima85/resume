@@ -62,7 +62,7 @@ h4, h3, h2, .work-time, .work-description, .job-description {
 .buttons {
     display: flex;
     justify-content: space-around;
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .buttons a {
@@ -74,7 +74,7 @@ h4, h3, h2, .work-time, .work-description, .job-description {
 }
 
 .buttons a.animated {
-    /* opacity: 1; */
+    opacity: 1;
 }
 
 .skill-items {
