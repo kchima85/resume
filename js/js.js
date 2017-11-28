@@ -9,7 +9,7 @@ $(document).ready(function() {
   $('.second-pic-wp').waypoint(function(direction) {
     $('.second-pic-wp').addClass('animated fadeInLeft')
   }, {
-    offset: '50%'
+    offset: '597px'
   })
 
 });
