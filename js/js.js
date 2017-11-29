@@ -88,7 +88,7 @@ $(document).ready(function() {
     $('.interests-hobbies').addClass('animated zoomIn')
     $('.hobbies').addClass('animated fadeIn')
   }, {
-    offset: '450px'
+    offset: '800px'
   })
   
 });
