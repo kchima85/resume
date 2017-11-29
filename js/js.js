@@ -60,20 +60,20 @@ $(document).ready(function() {
     $('.colleges-1').addClass('animated fadeInLeft')
     $('.colleges-2').addClass('animated fadeInRight')
   }, {
-    offset: '800px'
+    offset: '75%'
   })
 
   $('.people-say').waypoint(function(direction) {
     $('.people-say').addClass('animated zoomIn')
   }, {
-    offset: '800px'
+    offset: '75%'
   })
 
   $('.review-pics').waypoint(function(direction) {
     $('.review-pics').addClass('animated fadeIn')
     $('.review').addClass('animated fadeIn')
   }, {
-    offset: '800px'
+    offset: '75%'
   })
 
   $('.projects').waypoint(function(direction) {

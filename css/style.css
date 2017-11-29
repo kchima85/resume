@@ -59,6 +59,7 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 .buttons {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
     opacity: 0;
 }
 
@@ -67,6 +68,7 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     color: white;
     border-radius: 50px;
     padding: 6px 24px 6px 24px;
+    margin: 20px 0px 20px 0px;
     font-size: 20px;
 }
 
