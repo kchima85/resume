@@ -57,8 +57,6 @@ $(document).ready(function() {
 
   $('.education-section').waypoint(function(direction) {
     $('.education-section').addClass('animated zoomIn')
-    $('.colleges-1').addClass('animated fadeInLeft')
-    $('.colleges-2').addClass('animated fadeInRight')
   }, {
     offset: '50%'
   })
