@@ -63,6 +63,13 @@ $(document).ready(function() {
     offset: '50%'
   })
 
+  $('.colleges-1').waypoint(function(direction) {
+    $('.colleges-1').addClass('animated fadeInLeft')
+    $('.colleges-2').addClass('animated fadeInRight')
+  }, {
+    offset: '50%'
+  })
+
   $('.people-say').waypoint(function(direction) {
     $('.people-say').addClass('animated zoomIn')
   }, {
