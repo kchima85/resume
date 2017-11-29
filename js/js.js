@@ -57,7 +57,38 @@ $(document).ready(function() {
 
   $('.education-section').waypoint(function(direction) {
     $('.education-section').addClass('animated zoomIn')
+    $('.colleges-1').addClass('animated fadeInLeft')
+    $('.colleges-2').addClass('animated fadeInRight')
   }, {
     offset: '800px'
   })
+
+  $('.people-say').waypoint(function(direction) {
+    $('.people-say').addClass('animated zoomIn')
+  }, {
+    offset: '800px'
+  })
+
+  $('.review-pics').waypoint(function(direction) {
+    $('.review-pics').addClass('animated fadeIn')
+    $('.review').addClass('animated fadeIn')
+  }, {
+    offset: '800px'
+  })
+
+  $('.projects').waypoint(function(direction) {
+    $('.projects').addClass('animated zoomIn')
+    $('.project-1').addClass('animated fadeInLeft')
+    $('.project-2').addClass('animated fadeInRight')
+  }, {
+    offset: '800px'
+  })
+
+  $('.interests-hobbies').waypoint(function(direction) {
+    $('.interests-hobbies').addClass('animated zoomIn')
+    $('.hobbies').addClass('animated fadeIn')
+  }, {
+    offset: '800px'
+  })
+  
 });

@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 
-h4, h3, h2, .work-time, .work-description, .job-description {
+h4, h3, h2, .work-time, .work-description, .job-title {
     text-align: center;
 }
 
@@ -39,14 +39,6 @@ h4, h3, h2, .work-time, .work-description, .job-description {
     max-width: 75%;
 }
 
-.second-pic-wp, .about-me-text {
-    opacity: 0;
-}
-
-.second-pic-wp.animated, .about-me-text.animated {
-    opacity: 1;
-}
-
 .first-paragraph {
     text-align: center;
     font-weight: 600;
@@ -63,10 +55,6 @@ h4, h3, h2, .work-time, .work-description, .job-description {
     display: flex;
     justify-content: space-around;
     opacity: 0;
-}
-
-.buttons.animated {
-    opacity: 1;
 }
 
 .buttons a {
@@ -90,22 +78,11 @@ h4, h3, h2, .work-time, .work-description, .job-description {
     margin-bottom: 20px;
 }
 
-.tech-skills-1, .tech-skills-2, .tech-skills-3, .work-experience, .main-carousel,
-.skill-section, .education-section {
-    opacity: 0;
-}
-
-.tech-skills-1.animated, .tech-skills-2.animated, .tech-skills-3.animated, 
-.work-experience.animated, .main-carousel.animated, .skill-section.animated,
-.education-section.animated {
-    opacity: 1;
-}
-
 .carousel-cells h3 {
     font-weight: 600;
 }
 
-.job-description span {
+.job-title span {
     font-size: 16px;
 }
 
@@ -131,6 +108,22 @@ h4, h3, h2, .work-time, .work-description, .job-description {
     height: 50%;
     display: block;
     margin: 0 auto;
+}
+
+.tech-skills-1, .tech-skills-2, .tech-skills-3, .work-experience, .main-carousel,
+.skill-section, .education-section, .colleges-1, .colleges-2, .people-say, .review-pics,
+.review, .projects, .project-1, .project-2, .interests-hobbies, .hobbies, .second-pic-wp,
+.about-me-text {
+    opacity: 0;
+}
+
+.tech-skills-1.animated, .tech-skills-2.animated, .tech-skills-3.animated, 
+.work-experience.animated, .main-carousel.animated, .skill-section.animated,
+.education-section.animated, .colleges-1.animated, .colleges-2.animated, 
+.people-say.animated, .review-pics.animated, .review.animated, .projects.animated,
+.project-1.animated, .project-2.animated, .interests-hobbies.animated, .hobbies.animated,
+.second-pic-wp.animated, .about-me-text.animated, .buttons.animated {
+    opacity: 1;
 }
 
 @media screen and (min-width: 768px){
