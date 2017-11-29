@@ -22,6 +22,6 @@ $(document).ready(function() {
   $('.skill-set').waypoint(function(direction) {
     $('.skill-section').addClass('animated zoomIn')
   }, {
-    offset: '425px'
+    offset: '450px'
   })
 });
