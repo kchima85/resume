@@ -42,4 +42,16 @@ $(document).ready(function() {
   }, {
     offset: '450px'
   })
+
+  $('.work-experience').waypoint(function(direction) {
+    $('.work-experience').addClass('animated zoomIn')
+  }, {
+    offset: '450px'
+  })
+
+  $('.main-carousel').waypoint(function(direction) {
+    $('.main-carousel').addClass('animated fadeIn')
+  }, {
+    offset: '450px'
+  })
 });
