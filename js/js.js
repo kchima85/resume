@@ -16,7 +16,7 @@ $(document).ready(function() {
   $('.buttons').waypoint(function(direction) {
     $('.buttons').addClass('animated fadeInUp')
   }, {
-    offset: '540px'
+    offset: '700px'
   })
 
   $('.skill-set').waypoint(function(direction) {
@@ -53,5 +53,11 @@ $(document).ready(function() {
     $('.main-carousel').addClass('animated fadeIn')
   }, {
     offset: '450px'
+  })
+
+  $('.education-section').waypoint(function(direction) {
+    $('.education-section').addClass('animated zoomIn')
+  }, {
+    offset: '800px'
   })
 });
