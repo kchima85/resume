@@ -13,14 +13,32 @@ $(document).ready(function() {
     offset: '557px'
   })
 
-  $('.second-paragraph').waypoint(function(direction) {
+  $('.buttons').waypoint(function(direction) {
     $('.buttons').addClass('animated fadeInUp')
   }, {
-    offset: '550px'
+    offset: '540px'
   })
 
   $('.skill-set').waypoint(function(direction) {
     $('.skill-section').addClass('animated zoomIn')
+  }, {
+    offset: '450px'
+  })
+
+  $('.tech-skills-1').waypoint(function(direction) {
+    $('.tech-skills-1').addClass('animated slideInUp')
+  }, {
+    offset: '450px'
+  })
+
+  $('.tech-skills-2').waypoint(function(direction) {
+    $('.tech-skills-2').addClass('animated slideInUp')
+  }, {
+    offset: '450px'
+  })
+
+  $('.tech-skills-3').waypoint(function(direction) {
+    $('.tech-skills-3').addClass('animated slideInUp')
   }, {
     offset: '450px'
   })

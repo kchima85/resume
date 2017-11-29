@@ -78,7 +78,7 @@ h4, h3, h2, .work-time, .work-description, .job-description {
 }
 
 .skill-section {
-    /* opacity: 0; */
+    opacity: 0;
 }
 
 .skill-section.animated {
@@ -96,6 +96,14 @@ h4, h3, h2, .work-time, .work-description, .job-description {
     width: 30%;
     height: auto;
     margin-bottom: 20px;
+}
+
+.tech-skills-1, .tech-skills-2, .tech-skills-3 {
+    opacity: 0;
+}
+
+.tech-skills-1.animated, .tech-skills-2.animated, .tech-skills-3.animated {
+    opacity: 1;
 }
 
 .carousel-cells h3 {
