@@ -10,49 +10,49 @@ $(document).ready(function() {
     $('.second-pic-wp').addClass('animated fadeInLeft')
     $('.about-me-text').addClass('animated fadeInRight')
   }, {
-    offset: '557px'
+    offset: '50%'
   })
 
   $('.buttons').waypoint(function(direction) {
     $('.buttons').addClass('animated fadeInUp')
   }, {
-    offset: '700px'
+    offset: '50%'
   })
 
   $('.skill-set').waypoint(function(direction) {
     $('.skill-section').addClass('animated zoomIn')
   }, {
-    offset: '450px'
+    offset: '50%'
   })
 
   $('.tech-skills-1').waypoint(function(direction) {
     $('.tech-skills-1').addClass('animated slideInUp')
   }, {
-    offset: '450px'
+    offset: '50%'
   })
 
   $('.tech-skills-2').waypoint(function(direction) {
     $('.tech-skills-2').addClass('animated slideInUp')
   }, {
-    offset: '450px'
+    offset: '50%'
   })
 
   $('.tech-skills-3').waypoint(function(direction) {
     $('.tech-skills-3').addClass('animated slideInUp')
   }, {
-    offset: '450px'
+    offset: '50%'
   })
 
   $('.work-experience').waypoint(function(direction) {
     $('.work-experience').addClass('animated zoomIn')
   }, {
-    offset: '450px'
+    offset: '50%'
   })
 
   $('.main-carousel').waypoint(function(direction) {
     $('.main-carousel').addClass('animated fadeIn')
   }, {
-    offset: '450px'
+    offset: '50%'
   })
 
   $('.education-section').waypoint(function(direction) {
@@ -60,20 +60,20 @@ $(document).ready(function() {
     $('.colleges-1').addClass('animated fadeInLeft')
     $('.colleges-2').addClass('animated fadeInRight')
   }, {
-    offset: '800px'
+    offset: '50%'
   })
 
   $('.people-say').waypoint(function(direction) {
     $('.people-say').addClass('animated zoomIn')
   }, {
-    offset: '800px'
+    offset: '50%'
   })
 
   $('.review-pics').waypoint(function(direction) {
     $('.review-pics').addClass('animated fadeIn')
     $('.review').addClass('animated fadeIn')
   }, {
-    offset: '800px'
+    offset: '50%'
   })
 
   $('.projects').waypoint(function(direction) {
@@ -81,14 +81,14 @@ $(document).ready(function() {
     $('.project-1').addClass('animated fadeInLeft')
     $('.project-2').addClass('animated fadeInRight')
   }, {
-    offset: '1200px'
+    offset: '50%'
   })
 
   $('.interests-hobbies').waypoint(function(direction) {
     $('.interests-hobbies').addClass('animated zoomIn')
     $('.hobbies').addClass('animated fadeIn')
   }, {
-    offset: '1500px'
+    offset: '65%'
   })
   
 });
