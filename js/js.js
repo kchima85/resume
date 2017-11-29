@@ -81,14 +81,14 @@ $(document).ready(function() {
     $('.project-1').addClass('animated fadeInLeft')
     $('.project-2').addClass('animated fadeInRight')
   }, {
-    offset: '450px'
+    offset: '800px'
   })
 
   $('.interests-hobbies').waypoint(function(direction) {
     $('.interests-hobbies').addClass('animated zoomIn')
     $('.hobbies').addClass('animated fadeIn')
   }, {
-    offset: '800px'
+    offset: '1000px'
   })
   
 });
