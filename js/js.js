@@ -60,20 +60,20 @@ $(document).ready(function() {
     $('.colleges-1').addClass('animated fadeInLeft')
     $('.colleges-2').addClass('animated fadeInRight')
   }, {
-    offset: '75%'
+    offset: '450px'
   })
 
   $('.people-say').waypoint(function(direction) {
     $('.people-say').addClass('animated zoomIn')
   }, {
-    offset: '75%'
+    offset: '450px'
   })
 
   $('.review-pics').waypoint(function(direction) {
     $('.review-pics').addClass('animated fadeIn')
     $('.review').addClass('animated fadeIn')
   }, {
-    offset: '75%'
+    offset: '450px'
   })
 
   $('.projects').waypoint(function(direction) {
@@ -81,14 +81,14 @@ $(document).ready(function() {
     $('.project-1').addClass('animated fadeInLeft')
     $('.project-2').addClass('animated fadeInRight')
   }, {
-    offset: '50%'
+    offset: '450px'
   })
 
   $('.interests-hobbies').waypoint(function(direction) {
     $('.interests-hobbies').addClass('animated zoomIn')
     $('.hobbies').addClass('animated fadeIn')
   }, {
-    offset: '100%'
+    offset: '450px'
   })
   
 });
