@@ -65,6 +65,10 @@ h4, h3, h2, .work-time, .work-description, .job-description {
     opacity: 0;
 }
 
+.buttons.animated {
+    opacity: 1;
+}
+
 .buttons a {
     background-color: orange;
     color: white;
@@ -73,7 +77,11 @@ h4, h3, h2, .work-time, .work-description, .job-description {
     font-size: 20px;
 }
 
-.buttons a.animated {
+.skill-section {
+    /* opacity: 0; */
+}
+
+.skill-section.animated {
     opacity: 1;
 }
 

@@ -16,6 +16,12 @@ $(document).ready(function() {
   $('.second-paragraph').waypoint(function(direction) {
     $('.buttons').addClass('animated fadeInUp')
   }, {
-    offset: '560px'
+    offset: '550px'
+  })
+
+  $('.skill-set').waypoint(function(direction) {
+    $('.skill-section').addClass('animated zoomIn')
+  }, {
+    offset: '425px'
   })
 });
