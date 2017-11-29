@@ -83,6 +83,11 @@ $(document).ready(function() {
 
   $('.projects').waypoint(function(direction) {
     $('.projects').addClass('animated zoomIn')
+  }, {
+    offset: '50%'
+  })
+
+  $('.project-1').waypoint(function(direction) {
     $('.project-1').addClass('animated fadeInLeft')
     $('.project-2').addClass('animated fadeInRight')
   }, {
