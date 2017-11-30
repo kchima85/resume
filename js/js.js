@@ -49,8 +49,8 @@ $(document).ready(function() {
     offset: '50%'
   })
 
-  $('.main-carousel').waypoint(function(direction) {
-    $('.main-carousel').addClass('animated fadeIn')
+  $('.carousel-one').waypoint(function(direction) {
+    $('.carousel-one').addClass('animated fadeIn')
   }, {
     offset: '50%'
   })
