@@ -46,15 +46,15 @@ $(document).ready(function() {
   $('.education-section').waypoint(function(direction) {
     $('.education-section').addClass('animated zoomIn')
   }, {
-    offset: '50%'
+    offset: '80%'
   })
 
   $('.colleges').waypoint(function(direction) {
     $('.colleges').addClass('animated fadeIn')
   }, {
-    offset: '50%'
+    offset: '80%'
   })
-  
+
   $('.projects-header').waypoint(function(direction) {
     $('.projects-header').addClass('animated zoomIn')
   }, {
