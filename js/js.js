@@ -58,12 +58,12 @@ $(document).ready(function() {
   $('.projects-header').waypoint(function(direction) {
     $('.projects-header').addClass('animated zoomIn')
   }, {
-    offset: '50%'
+    offset: '80%'
   })
 
   $('.projects').waypoint(function(direction) {
     $('.projects').addClass('animated fadeIn')
   }, {
-    offset: '50%'
+    offset: '80%'
   })
 });
