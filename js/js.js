@@ -61,9 +61,8 @@ $(document).ready(function() {
     offset: '50%'
   })
 
-  $('.colleges-1').waypoint(function(direction) {
-    $('.colleges-1').addClass('animated fadeInLeft')
-    $('.colleges-2').addClass('animated fadeInRight')
+  $('.colleges').waypoint(function(direction) {
+    $('.colleges').addClass('animated fadeIn')
   }, {
     offset: '50%'
   })
@@ -74,22 +73,20 @@ $(document).ready(function() {
     offset: '50%'
   })
 
-  $('.review-pics').waypoint(function(direction) {
-    $('.review-pics').addClass('animated fadeIn')
-    $('.review').addClass('animated fadeIn')
+  $('.carousel-two').waypoint(function(direction) {
+    $('.carousel-two').addClass('animated fadeIn')
+  }, {
+    offset: '50%'
+  })
+
+  $('.projects-header').waypoint(function(direction) {
+    $('.projects-header').addClass('animated zoomIn')
   }, {
     offset: '50%'
   })
 
   $('.projects').waypoint(function(direction) {
-    $('.projects').addClass('animated zoomIn')
-  }, {
-    offset: '50%'
-  })
-
-  $('.project-1').waypoint(function(direction) {
-    $('.project-1').addClass('animated fadeInLeft')
-    $('.project-2').addClass('animated fadeInRight')
+    $('.projects').addClass('animated fadeIn')
   }, {
     offset: '50%'
   })
