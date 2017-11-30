@@ -43,18 +43,6 @@ $(document).ready(function() {
     offset: '50%'
   })
 
-  $('.work-experience').waypoint(function(direction) {
-    $('.work-experience').addClass('animated zoomIn')
-  }, {
-    offset: '50%'
-  })
-
-  $('.carousel-one').waypoint(function(direction) {
-    $('.carousel-one').addClass('animated fadeIn')
-  }, {
-    offset: '50%'
-  })
-
   $('.education-section').waypoint(function(direction) {
     $('.education-section').addClass('animated zoomIn')
   }, {
@@ -66,19 +54,7 @@ $(document).ready(function() {
   }, {
     offset: '50%'
   })
-
-  $('.people-say').waypoint(function(direction) {
-    $('.people-say').addClass('animated zoomIn')
-  }, {
-    offset: '50%'
-  })
-
-  $('.carousel-two').waypoint(function(direction) {
-    $('.carousel-two').addClass('animated fadeIn')
-  }, {
-    offset: '50%'
-  })
-
+  
   $('.projects-header').waypoint(function(direction) {
     $('.projects-header').addClass('animated zoomIn')
   }, {
@@ -90,12 +66,4 @@ $(document).ready(function() {
   }, {
     offset: '50%'
   })
-
-  $('.interests-hobbies').waypoint(function(direction) {
-    $('.interests-hobbies').addClass('animated zoomIn')
-    $('.hobbies').addClass('animated fadeIn')
-  }, {
-    offset: '65%'
-  })
-  
 });

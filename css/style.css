@@ -118,18 +118,15 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 }
 
 .second-pic-wp, .about-me-text, .buttons, .skill-section, .tech-skills-1,
-.tech-skills-2, .tech-skills-3, .work-experience, .carousel-one,
-.education-section, .colleges, .people-saw, .carousel-two, .projects-header,
-.projects, .interests-hobbies, .hobbies, .people-say{
+.tech-skills-2, .tech-skills-3, .education-section, .colleges, .projects-header,
+.projects {
     opacity: 0;
 }
 
 .second-pic-wp.animated, .about-me-text.animated, .buttons.animated,
-.skill-section.animated, .tech-skills-1.animated,
-.tech-skills-2.animated, .tech-skills-3.animated, .work-experience.animated, 
-.carousel-one.animated, .education-section.animated, .colleges.animated,
-.people-saw.animated, .carousel-two.animated, .projects-header.animated,
-.projects.animated, .interests-hobbies.animated, .hobbies.animated, .people-say.animated {
+.skill-section.animated, .tech-skills-1.animated, .tech-skills-2.animated,
+.tech-skills-3.animated, .education-section.animated, .colleges.animated,
+.projects-header.animated, .projects.animated {
     opacity: 1;
 }
 
