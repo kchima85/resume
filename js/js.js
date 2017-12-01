@@ -54,24 +54,24 @@ $(document).ready(function() {
     waypoint.context.refresh()
     $('.education-section').addClass('animated zoomIn')
   }, {
-    offset: '50%'
+    offset: '90%'
   })
 
   $('.colleges').waypoint(function(direction) {
     $('.colleges').addClass('animated fadeIn')
   }, {
-    offset: '50%'
+    offset: '90%'
   })
 
   $('.projects-header').waypoint(function(direction) {
     $('.projects-header').addClass('animated zoomIn')
   }, {
-    offset: '50%'
+    offset: '90%'
   })
 
   $('.projects').waypoint(function(direction) {
     $('.projects').addClass('animated fadeIn')
   }, {
-    offset: '50%'
+    offset: '90%'
   })
 });
