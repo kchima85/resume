@@ -39,6 +39,11 @@ $(document).ready(function() {
 
   $('.tech-skills-3').waypoint(function(direction) {
     $('.tech-skills-3').addClass('animated slideInUp')
+  }, {
+    offset: '50%'
+  })
+
+  $('.education-section').waypoint(function(direction) {
     var waypoint = new Waypoint ({
       element: document.getElementById('first-carousel'),
       handler: function(direction) {
@@ -47,12 +52,6 @@ $(document).ready(function() {
       context: document.getElementById('first-carousel')
     })
     waypoint.context.refresh()
-    // console.log(waypoint.context.refresh());
-  }, {
-    offset: '50%'
-  })
-
-  $('.education-section').waypoint(function(direction) {
     $('.education-section').addClass('animated zoomIn')
   }, {
     offset: '50%'
