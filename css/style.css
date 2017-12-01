@@ -114,8 +114,13 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     margin: 0 auto;
 }
 
+.project h4 {
+    padding-bottom: 0px;
+}
+
 .project p {
     text-align: center;
+    padding-bottom: 60px;
 }
 
 .hobby-names {
