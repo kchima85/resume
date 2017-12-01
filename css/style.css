@@ -85,6 +85,12 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     margin-bottom: 20px;
 }
 
+.carousel-cell {
+    width: 100%; /* half-width */
+    height: auto;
+    margin-right: 10px;
+}
+
 .carousel-cells h3 {
     font-weight: 600;
 }
@@ -111,8 +117,9 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 }
 
 .hobby-pics {
-    width: 50%;
-    height: 50%;
+    /* position: relative; */
+    width:  200px;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
