@@ -36,6 +36,7 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 .my-pic {
     border-radius: 50%;
     max-width: 75%;
+    height: auto;
     display: block;
     margin: 0 auto;
 }
@@ -67,9 +68,8 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 
 .buttons {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    opacity: 0;
 }
 
 .buttons a {
@@ -158,23 +158,31 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 }
 
 @media screen and (min-width: 768px){
+    .text-center {
+        display: block;
+        margin: 0 auto;
+    }
+    
     .my-pic {
         max-width: 50%;
     }
 
     #second-pic {
-        max-width: 150%;
+        max-width: 215%;
+        height: auto;
         margin-top: 75px;
+        padding: 50px 50px 0px 0px;
     }
 
     .first-paragraph {
-        font-size: 35px;
+        font-size: 30px;
+        padding-left: 50px;
     }
 
     .second-paragraph {
-        margin: 0px 40px 20px 55px;
+        margin: 0px 0px 20px 150px;
     }
-
+    
     .buttons a {
         padding: 12px 50px 12px 50px;
     }
@@ -189,12 +197,23 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 
     .review-pics img, .hobby-pics {
         width: 25%;
+    }
+
+    .interests {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+    }
+
+    .interests .carousel-cell div img {
+        width: 50%;
+        height: auto;
     }
 }
 
 @media screen and (min-width: 992px){
     .my-pic {
-        max-width: 50%;
+        max-width: 100%;
     }
 
     .first-paragraph {
@@ -203,7 +222,10 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 
     .second-paragraph {
         font-size: 20px;
-        margin: 0px 40px 20px 55px;
+    }
+
+    .buttons {
+        padding-top: 100px;
     }
 
     .buttons a {
@@ -222,5 +244,53 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     .review-pics img, .hobby-pics {
         width: 25%;
     }
+
+    .review p {
+        font-size: 20px
+    }
 }
 
+@media screen and (min-width: 1024px){
+    .my-pic {
+        max-width: 100%;
+    }
+
+    #second-pic {
+        width: 200%;
+        padding-right: 200px;
+        margin: 50px;
+    }
+
+    .first-paragraph {
+        font-size: 35px;
+    }
+
+    .second-paragraph {
+        font-size: 20px;
+    }
+
+    .buttons {
+        padding-top: 100px;
+    }
+
+    .buttons a {
+        padding: 20px 60px 20px 60px;
+    }
+
+    .skill-items img {
+        width: 15%;
+    }
+
+    .work-description, .review {
+        font-size: 20px;
+        margin: 0px 40px 0px 40px;
+    }
+
+    .review-pics img, .hobby-pics {
+        width: 25%;
+    }
+
+    .review p {
+        font-size: 20px
+    }
+}
