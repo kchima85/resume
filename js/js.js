@@ -39,7 +39,15 @@ $(document).ready(function() {
 
   $('.tech-skills-3').waypoint(function(direction) {
     $('.tech-skills-3').addClass('animated slideInUp')
-    Waypoint.refreshAll();
+    var waypoint = new Waypoint ({
+      element: document.getElementById('first-carousel'),
+      handler: function(direction) {
+
+      },
+      context: document.getElementById('first-carousel')
+    })
+    waypoint.context.refresh()
+    // console.log(waypoint.context.refresh());
   }, {
     offset: '50%'
   })
@@ -47,24 +55,24 @@ $(document).ready(function() {
   $('.education-section').waypoint(function(direction) {
     $('.education-section').addClass('animated zoomIn')
   }, {
-    offset: '80%'
+    offset: '50%'
   })
 
   $('.colleges').waypoint(function(direction) {
     $('.colleges').addClass('animated fadeIn')
   }, {
-    offset: '80%'
+    offset: '50%'
   })
 
   $('.projects-header').waypoint(function(direction) {
     $('.projects-header').addClass('animated zoomIn')
   }, {
-    offset: '80%'
+    offset: '50%'
   })
 
   $('.projects').waypoint(function(direction) {
     $('.projects').addClass('animated fadeIn')
   }, {
-    offset: '80%'
+    offset: '50%'
   })
 });
