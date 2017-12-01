@@ -106,6 +106,14 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     font-size: 16px;
 }
 
+.colleges h4 {
+    padding-bottom: 0;
+}
+
+.colleges p {
+    padding-bottom: 40px;
+}
+
 .review-pics img {
     width: 50%;
     height: auto;
