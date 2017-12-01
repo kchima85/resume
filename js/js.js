@@ -39,13 +39,9 @@ $(document).ready(function() {
 
   $('.tech-skills-3').waypoint(function(direction) {
     $('.tech-skills-3').addClass('animated slideInUp')
-  }, {
-    offset: '50%'
-  })
-
-  $('work-experience').waypoint(function() {
     Waypoint.refreshAll();
   }, {
+    offset: '50%'
   })
 
   $('.education-section').waypoint(function(direction) {
