@@ -31,10 +31,13 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 .my-pic {
     border-radius: 50%;
     max-width: 75%;
+    display: block;
+    margin: 0 auto;
 }
 
 .text-center h1 {
     color: white;
+    text-align: center;
 }
 
 #second-pic {
@@ -85,13 +88,7 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     margin-bottom: 20px;
 }
 
-.carousel-cell {
-    width: 100%; /* half-width */
-    height: auto;
-    margin-right: 10px;
-}
-
-.carousel-cells h3 {
+.carousel-cell-one h3 {
     font-weight: 600;
 }
 
@@ -137,17 +134,13 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     opacity: 1;
 }
 
-.container {
-    -webkit-transform: translateZ(0);
-}
-
 @media screen and (min-width: 768px){
     .my-pic {
         max-width: 50%;
     }
 
     #second-pic {
-        max-width: 125%;
+        max-width: 150%;
         margin-top: 75px;
     }
 
