@@ -43,6 +43,11 @@ $(document).ready(function() {
     offset: '50%'
   })
 
+  $('work-experience').waypoint(function() {
+    Waypoint.refreshAll();
+  }, {
+  })
+
   $('.education-section').waypoint(function(direction) {
     $('.education-section').addClass('animated zoomIn')
   }, {
