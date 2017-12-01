@@ -6,8 +6,13 @@ body {
     font-family: 'Montserrat', sans-serif;
 }
 
+p {
+    margin: 0;
+}
+
 h4, h3, h2, .work-time, .work-description, .job-title {
     text-align: center;
+    padding-bottom: 20px;
 }
 
 .even, .odd {
@@ -43,7 +48,8 @@ h4, h3, h2, .work-time, .work-description, .job-title {
 #second-pic {
     margin: 0px auto;
     display: block;
-    max-width: 75%;
+    max-width: 100%;
+    padding-bottom: 20px;
 }
 
 .first-paragraph {
@@ -80,6 +86,7 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
+    padding-bottom: 20px;
 }
 
 .skill-items img {
@@ -92,6 +99,7 @@ h4, h3, h2, .work-time, .work-description, .job-title {
     width: 100%; /* full width */
     height: auto; /* height of carousel */
     margin-right: 10px;
+    padding-bottom: 20px;
 }
 
 .job-title span {
